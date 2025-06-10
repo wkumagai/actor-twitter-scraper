@@ -10,7 +10,8 @@
 #  apify/actor-node-chrome-xvfb (Node.js 10 + Chrome + Xvfb on Debian)
 # For more information, see https://apify.com/docs/actor#base-images
 # Note that you can use any other image from Docker Hub.
-FROM apify/actor-node-chrome
+# FROM apify/actor-node-chrome -> original version
+FROM apify/actor-node:18
 
 # Second, copy just package.json since it should be the only file
 # that affects NPM install in the next step
