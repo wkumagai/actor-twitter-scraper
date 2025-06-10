@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apify": "^0.14.15"
+    "apify": "^0.14.15",
     "underscore": "^1.13.7"
   }
 }
