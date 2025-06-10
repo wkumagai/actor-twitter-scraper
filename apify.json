@@ -1,6 +1,7 @@
 {
-	"name": "twitter-extractor",
-	"version": "0.0",
-	"buildTag": "latest",
-	"env": null
+  "name": "twitter-extractor",
+  "version": "0.0",
+  "buildTag": "latest",
+  "baseDockerImage": "apify/actor-node:18",
+  "env": null
 }
