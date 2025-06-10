@@ -17,6 +17,10 @@ FROM apify/actor-node:18
 # that affects NPM install in the next step
 COPY package.json ./
 
+# --- ここを追加 ------------------------------
+RUN apk add --no-cache python3 make g++
+# --------------------------------------------
+
 # Install NPM packages, skip optional and development dependencies to
 # keep the image small. Avoid logging too much and print the dependency
 # tree for debugging
